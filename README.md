@@ -1,3 +1,10 @@
+This project is no longer maintained. Please use the official bundle: https://plugins.jetbrains.com/plugin/13711-korean-language-pack-eap 
+
+[![Build Status](https://travis-ci.org/traff/pycharm-kr.svg?branch=master)](https://travis-ci.org/traff/pycharm-kr)
+
+[![Coverage Status](https://coveralls.io/repos/github/traff/pycharm-kr/badge.svg?branch=master)](https://coveralls.io/github/traff/pycharm-kr?branch=master)
+
+
 ## How to build translation bundle
 
 To build the resources_kr.jar bundle on Linux and macOs please run
@@ -33,6 +40,7 @@ To make a translation:
  * fork this repository
  * find strings to be translated in the *_ko_KR.properties files and change English text
 to a corresponding Korean
+ * to find strings that are to be translated you can use a [coverage report](https://coveralls.io/github/traff/pycharm-kr?branch=master)
  * commit changes
  * make pull-request
 
